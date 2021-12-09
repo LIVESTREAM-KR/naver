@@ -1,34 +1,56 @@
-# CI setup for Feed me up, Scotty!
+# 네이버
 
-You can fork this repository and edit `feeds.toml` to start generating your own
-RSS feeds.
+## [✌ V LIVE](https://github.com/LIVESTREAM-KR/vlive)
+https://livestream-kr.github.io/vlive/all.xml
 
-# Automatically generate feeds
+### NEW
+- https://livestream-kr.github.io/vlive/new.xml
+- [PC](https://www.vlive.tv/home/new): https://livestream-kr.github.io/vlive/home_new.xml
+- [모바일](https://m.vlive.tv/home): https://livestream-kr.github.io/vlive/m_home.xml
 
-## On GitHub
+## CHARTS
+#### Videos
+- https://livestream-kr.github.io/vlive/charts.xml
+- [PC](https://www.vlive.tv/home/chart?sub=VIDEO&period=HOUR_24&country=ALL): https://livestream-kr.github.io/vlive/home_charts.xml
+   - PC TOP3: https://livestream-kr.github.io/vlive/home_charts_top3.xml
+- [모바일](https://m.vlive.tv/chart?sub=VIDEO&period=HOUR_24&country=ALL): https://livestream-kr.github.io/vlive/m_charts.xml
+   - 모바일 TOP3: https://livestream-kr.github.io/vlive/m_charts_top3.xml
 
-To automatically generate feeds twice a day on GitHub:
+#### Channels
+- [PC](https://www.vlive.tv/home/chart?sub=CHANNEL&period=HOUR_24&country=ALL) 
+- [모바일](https://m.vlive.tv/chart?sub=CHANNEL&period=HOUR_24&country=ALL)
 
-1. Fork this repository and edit `feeds.toml`.
-2. Create a branch called `gh-pages`.
-3. Visit the _Actions_ tab for your fork, then enable workflows for your fork.
-4. Make sure the Publishing Source for your GitHub Pages site is set to the
-   `gh-pages` branch.
-   [Instructions here.](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+### UPCOMING
+- [PC](https://www.vlive.tv/upcoming): https://livestream-kr.github.io/vlive/upcoming.xml
+- [모바일](https://m.vlive.tv/upcoming): https://livestream-kr.github.io/vlive/m_upcoming.xml
 
-GitHub Actions will then automatically run twice a day to check for updates,
-and publish your feeds at `https://<username>.github.io/feeds/`.
+### [STORE](https://www.vlive.tv/vstore)
+- [MEMBERSHIP](https://www.vlive.tv/vstore/membership): https://livestream-kr.github.io/vlive/vstore_membership.xml
+- [V LIVE+](https://www.vlive.tv/vstore/video): https://livestream-kr.github.io/vlive/vstore_video.xml
+  - https://livestream-kr.github.io/vlive/vliveplus.xml
+- [LIGHTSTICK](https://www.vlive.tv/vstore/lightStick): https://livestream-kr.github.io/vlive/vstore_lightstick.xml
+  - https://livestream-kr.github.io/vlive/lightstick.xml
+- [STICKER](https://www.vlive.tv/vstore/sticker): https://livestream-kr.github.io/vlive/vstore_sticker.xml
+  - https://livestream-kr.github.io/vlive/sticker.xml
 
-## On GitLab
+### CHANNEL
+[Beyond LIVE](https://github.com/LIVESTREAM-KR/vlive_beyond-live) | [V MUSICAL](https://github.com/LIVESTREAM-KR/vlive_vmusicial) | [V CLASSIC](https://github.com/LIVESTREAM-KR/vlive_vclassic)  
 
-To automatically generate feeds on GitLab:
 
-1. Fork this repository and edit `feeds.toml`.
-2. [Create a new pipeline schedule](./-/pipeline_schedules/new) (CI/CD ˃
-   Schedules).
-3. Set it to your desired interval (e.g. `30 5,17 * * *` to run at 5:30 and
-   17:30).
-4. Hit "Save pipeline schedule".
+## [📺 NAVER TV](https://github.com/LIVESTREAM-KR/navertv)
 
-GitLab CI/CD will then automatically run at your selected interval to check for
-updates, and publish your feeds at `https://<username>.gitlab.io/feeds/`.
+## [🟥 NAVER NOW.](https://github.com/LIVESTREAM-KR/navernow)
+
+## [🟪 NAVER LIVE](https://github.com/LIVESTREAM-KR/naverlive)
+https://livestream-kr.github.io/naverlive/all.xml
+- 메인: https://livestream-kr.github.io/naverlive/live.xml
+  - 배너: https://livestream-kr.github.io/naverlive/top.xml
+- HOT: https://livestream-kr.github.io/naverlive/hot.xml
+- 채널: https://livestream-kr.github.io/naverlive/channel.xml
+- 후원/유료: https://livestream-kr.github.io/naverlive/store.xml
+- 다시보기: https://livestream-kr.github.io/naverlive/vod.xml
+- 전체일정: https://livestream-kr.github.io/naverlive/schedule.xml
+
+## [🛒 NAVER SHOPPINGLIVE](https://github.com/LIVESTREAM-KR/shoppinglive)
+https://livestream-kr.github.io/shoppinglive/all.xml
+- 전시 라이브: https://livestream-kr.github.io/shoppinglive/71526.xml
