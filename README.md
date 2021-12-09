@@ -48,7 +48,7 @@ https://livestream-kr.github.io/navernow/all.xml
 - https://livestream-kr.github.io/navernow/now.xml
 - NAVER TV: https://livestream-kr.github.io/navernow/navertv.xml
 - NAVER POST: https://livestream-kr.github.io/navernow/naverpost.xml
-- LINK BIO: https://livestream-kr.github.io/navernow/linkinbio.xml
+- LINK: https://livestream-kr.github.io/navernow/linkinbio.xml
 
 ## [🟪 NAVER LIVE](https://github.com/LIVESTREAM-KR/naverlive)
 https://livestream-kr.github.io/naverlive/all.xml
