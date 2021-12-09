@@ -38,8 +38,16 @@ https://livestream-kr.github.io/vlive/all.xml
 
 
 ## [📺 NAVER TV](https://github.com/LIVESTREAM-KR/navertv)
+https://livestream-kr.github.io/navertv/all.xml
+- 네이버 공연: https://livestream-kr.github.io/navertv/theater.xml
+- 네이버 나우.: https://livestream-kr.github.io/navertv/nowkr.xml
 
 ## [🟥 NAVER NOW.](https://github.com/LIVESTREAM-KR/navernow)
+https://livestream-kr.github.io/navernow/all.xml
+- https://livestream-kr.github.io/navernow/now.xml
+- NAVER TV: https://livestream-kr.github.io/navernow/navertv.xml
+- NAVER POST: https://livestream-kr.github.io/navernow/naverpost.xml
+- LINK BIO: https://livestream-kr.github.io/navernow/linkinbio.xml
 
 ## [🟪 NAVER LIVE](https://github.com/LIVESTREAM-KR/naverlive)
 https://livestream-kr.github.io/naverlive/all.xml
