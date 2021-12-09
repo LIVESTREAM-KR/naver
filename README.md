@@ -25,6 +25,7 @@ https://livestream-kr.github.io/vlive/all.xml
 - [모바일](https://m.vlive.tv/upcoming): https://livestream-kr.github.io/vlive/m_upcoming.xml
 
 ### [STORE](https://www.vlive.tv/vstore)
+- https://livestream-kr.github.io/vlive/spotbox.xml
 - [MEMBERSHIP](https://www.vlive.tv/vstore/membership): https://livestream-kr.github.io/vlive/vstore_membership.xml
 - [V LIVE+](https://www.vlive.tv/vstore/video): https://livestream-kr.github.io/vlive/vstore_video.xml
   - https://livestream-kr.github.io/vlive/vliveplus.xml
